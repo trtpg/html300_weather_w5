@@ -1,0 +1,46 @@
+html{box-sizing:border-box}
+body{margin:0}
+article,footer,header,main,section{display:block}
+html,body{font-size:16px;line-height:1.2}
+body,h1,h2,h3,h4,h5{font-family: "Raleway", sans-serif}
+.container{padding:0.01em 16px; background-color: white;} //#f5f5f0;
+.center{text-align:center;}
+.boxShadow{box-shadow:0 4px 3px 0 rgba(0,0,0,0.2)}
+.margin{margin:16px}
+.background{color: orange;background-color:#616161}
+#cityName{color: brown; font-stretch: expanded;}
+table {border-collapse: collapse; width: 100%; border-style:none;}
+th, td {text-align: left; padding: 8px;}
+tr:nth-child(odd){background-color: #f2f2f2}
+th {background-color: #4CAF50; color: white;}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #f1f1f6;   //#f2f2fe;
+    padding: 1rem 2rem 2rem;
+    margin: 1rem;
+    border: solid 1px #ccd;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When mouse over the  button, add a darker green color */
+button[type=button]:hover {
+    background-color: #45a049;
+}
