@@ -3,7 +3,7 @@ body{margin:0}
 article,footer,header,main,section{display:block}
 html,body{font-size:16px;line-height:1.2}
 body,h1,h2,h3,h4,h5{font-family: "Raleway", sans-serif}
-.container{padding:0.01em 16px; background-color: white;} //#f5f5f0;
+.container{padding:0.01em 16px; background-color: white;}
 .center{text-align:center;}
 .boxShadow{box-shadow:0 4px 3px 0 rgba(0,0,0,0.2)}
 .margin{margin:16px}
@@ -16,7 +16,7 @@ th {background-color: #4CAF50; color: white;}
 
 .form-container {
     border-radius: 5px;
-    background-color: #f1f1f6;   //#f2f2fe;
+    background-color: #f1f1f6;
     padding: 1rem 2rem 2rem;
     margin: 1rem;
     border: solid 1px #ccd;
