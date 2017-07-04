@@ -5,7 +5,7 @@ const apiURL = "http://api.openweathermap.org/data/2.5/weather"
 const appid = "&appid=36b77110cb8dde5daabb4b6771250ce2"
 const units  = "&units=imperial"
 
-var OnGitHub = false // change this to true if send it to GitHub
+var OnGitHub = true // change this to true if send it to GitHub
 
 var seattle = { lat: 47.6762, lon: -122.3182 }
 var london  = { lat: 51.5074, lon: 0.1278}
